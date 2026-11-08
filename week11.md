@@ -9,7 +9,7 @@ title: Week 11 — Choosing Motivational Methods
 
 2026 INTERNATIONAL HUMAN RESOURCE MANAGEMENT
 
-<span>Week 11 · Case Discussion</span>
+<span class="case-week-line">Week 11 · Case Discussion</span>
 
 </div>
 
