@@ -29,6 +29,15 @@ title: 2026 International Human Resource Management
   <div class="course-arrow">→</div>
 </a>
 
+<a class="course-item" href="motivation-theories.html">
+  <div class="course-week">W11</div>
+  <div class="course-item-main">
+    <div class="course-type">Supplementary Reading</div>
+    <div class="course-item-title">Motivation Theories</div>
+  </div>
+  <div class="course-arrow">→</div>
+</a>
+
 </div>
 
 </div>

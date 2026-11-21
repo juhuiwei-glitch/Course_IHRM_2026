@@ -425,8 +425,6 @@ ol li::marker {
   display: block;
 }
 
-
-
 .case-intro {
   max-width: 840px;
   margin-bottom: 46px;
@@ -538,5 +536,91 @@ ol li::marker {
   .profile-item {
     grid-template-columns: 28px minmax(0, 1fr);
     gap: 8px;
+  }
+}
+
+
+/* =========================================================
+   Supplementary Reading — Motivation Theories
+   ========================================================= */
+
+.supplementary-label {
+  padding: 0 28px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.supplementary-label + h1 {
+  margin-top: 0;
+}
+
+.formula {
+  margin: 24px 0;
+  padding: 16px 18px;
+  background: #F6F0DD;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.case-connection {
+  margin: 28px 0 36px;
+  padding: 22px 24px 20px;
+  background: #EAF3F0;
+  border: 1px solid #C9DDD7;
+  border-radius: 14px;
+}
+
+.case-connection-title {
+  margin-bottom: 14px;
+  color: var(--teal);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.case-character {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  color: var(--teal);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.case-character:first-of-type {
+  margin-top: 0;
+}
+
+/*
+  Post-discussion case connections
+  Change "block" to "none" below if you want to hide all case
+  connections before students complete the case discussion.
+*/
+.post-discussion {
+  display: block;
+}
+
+@media (max-width: 780px) {
+  .supplementary-label {
+    padding: 0 20px;
+    margin-top: 16px;
+  }
+
+  .formula {
+    font-size: 17px;
+  }
+
+  .case-character {
+    font-size: 18px;
   }
 }
